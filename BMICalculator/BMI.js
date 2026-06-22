@@ -21,5 +21,6 @@ form.addEventListener('submit', function (e){
         else{
             results.innerHTML=`<span>Normal Weight : ${ans}</span>`
         }
+        
     }
 })
