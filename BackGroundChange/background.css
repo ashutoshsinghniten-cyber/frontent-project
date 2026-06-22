@@ -1,0 +1,29 @@
+ #outer_box{
+        height: 80px;
+        width: 100%;
+        background-color: dimgrey;
+        color: black;
+        font-size: 30px;
+      }
+      #home{
+      text-decoration: none;
+      float: left;
+      margin: 15px 300px;
+      }
+      #login{
+        text-decoration: none;
+        float: left;
+        margin: 15px 270px;
+      }
+      #start{
+        height: 30px;
+        width: 80px;
+        font-size: 25px;
+        
+      }
+      #stop{
+        height: 30px;
+        width: 80px;
+        font-size: 25px;
+        
+      }
