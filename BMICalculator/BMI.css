@@ -1,81 +1,54 @@
-body{
-                width: 300px;
-                max-width: 800px;
-                min-width: 650px;
-                
-                margin: 0 auto;
-                background-color: #0a0707;
-                
-            }
-            #upper_box{
-                color: white;
-                height: 60px;
-                width: 700px;
-                background-color: white;
+  #upper_box{
+                height: 80px;
+                width: 100%;
+                background-color: rgb(179, 177, 177);
             }
             #home{
+                height: 40px;
+                width: 100px;
                 font-size: 30px;
-                color: #0a0707;
-                float: left;
-                margin: 10px 100px;
-                text-decoration:none;
+                text-decoration: none;
+                margin-top: 20px;
+                padding-left: 20px;
+                margin-left: 280px;
+                float: Left;
             }
             #login{
+                height: 40px;
+                width: 100px;
                 font-size: 30px;
-                color: black;
-                float: left;
                 text-decoration: none;
-                margin:10px 170px
+                margin-top: 20px;
+                padding-left: 20px;
+                margin-left: 500px;
+                float: Left;
             }
-            h1{
-                color: white;
-                margin-left:60px;
-                font-size: 35px;
+            #bdy{
+                height: 570px;
+                margin-top: 10px;
+                background-color: dimgray;
+                padding-left: 90px;
                 
             }
-            #outer{
-                height: 700px;
-                width: 700px;
+            .input1{
+                height: 25px;
+                width: 120px;
                 
-                background-color: #474747;
-                box-sizing: border-box;
-                text-align: center;
+            }
+            button{
+                height: 35px;
+                width: 130px;
+                border-radius: 8px;
                 font-size: 25px;
-               color: #fff;   
+                margin-left: 110px;
+            
             }
-            #userInput{
-                color: #0a0707;
-                font-size: 25px;
-                height: 45px;
-                width: 200px;
-                margin: 50px 0px;
-                border: 5px groove black;
-                text-align: center;
-
+            #weight_guide{
+                padding-left: 70px;
+                padding-top: 40px;
             }
-            #submi{
-                height: 50px;
-                width: 160px;
-                background-color:black;
-                color:white;
-                font-size: 25px;
-                
-                border-radius: 10px;
-                
-            }
-            #guess{
-                font-size: 55px;
-                margin-top: 120px;
-            }
-            .lowOrHigh{
-                text-align: center;
+            #result{
+                padding-left: 100px;
+                padding-top: 30px;
                 font-size: 30px;
-            }
-            .prevValue{
-                color: #fff;
-                padding: 7px;
-            }
-            .guessRemain{
-                color: #fff;
-                padding: 7px;
             }
