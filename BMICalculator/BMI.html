@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Guessing Number Game</title>
+        <link rel="stylesheet" href="BMI.css"/>
+    </head>
+    <body>
+        <nav id="upper_box">
+            <p><a href="/" target="_blank" id="home">Home</a></p>
+            <p><a href="/" target="_blank" id="login">Login</a></p>
+        </nav>
+        <div id="outer">
+            <h1>Number Guessing Game</h1>
+
+            <p>Try and guess the random number between 1 and 100.</p>
+            <p>You have 10 attempts to guess the right number.</p>
+
+            <form id="Form">
+                <label for="userInput" id="guess">Guess a number</label><br/>
+                <input type="text" id="userInput" /><br/>
+                <input type="button" value="Submit guess" id="submi"/>
+            </form>
+            <div class="inner">
+                <p>Previous Guesses:<span class="prevValue"></span></p>
+                <p>Guesses Remaining:<span class="guessRemain">10</span></p>
+                <p class="lowOrHigh"></p>
+            </div>
+        </div>
+        <script src="guessingNumberProject.js"></script>
+    </body>
+    
+</html>

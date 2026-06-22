@@ -1,0 +1,81 @@
+body{
+                width: 300px;
+                max-width: 800px;
+                min-width: 650px;
+                
+                margin: 0 auto;
+                background-color: #0a0707;
+                
+            }
+            #upper_box{
+                color: white;
+                height: 60px;
+                width: 700px;
+                background-color: white;
+            }
+            #home{
+                font-size: 30px;
+                color: #0a0707;
+                float: left;
+                margin: 10px 100px;
+                text-decoration:none;
+            }
+            #login{
+                font-size: 30px;
+                color: black;
+                float: left;
+                text-decoration: none;
+                margin:10px 170px
+            }
+            h1{
+                color: white;
+                margin-left:60px;
+                font-size: 35px;
+                
+            }
+            #outer{
+                height: 700px;
+                width: 700px;
+                
+                background-color: #474747;
+                box-sizing: border-box;
+                text-align: center;
+                font-size: 25px;
+               color: #fff;   
+            }
+            #userInput{
+                color: #0a0707;
+                font-size: 25px;
+                height: 45px;
+                width: 200px;
+                margin: 50px 0px;
+                border: 5px groove black;
+                text-align: center;
+
+            }
+            #submi{
+                height: 50px;
+                width: 160px;
+                background-color:black;
+                color:white;
+                font-size: 25px;
+                
+                border-radius: 10px;
+                
+            }
+            #guess{
+                font-size: 55px;
+                margin-top: 120px;
+            }
+            .lowOrHigh{
+                text-align: center;
+                font-size: 30px;
+            }
+            .prevValue{
+                color: #fff;
+                padding: 7px;
+            }
+            .guessRemain{
+                color: #fff;
+                padding: 7px;
+            }
